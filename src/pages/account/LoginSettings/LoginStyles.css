@@ -1,0 +1,193 @@
+.login-settings .min-width-350 {
+  min-width: 350px;
+}
+.login-settings .max-width-350 {
+  max-width: 382px;
+}
+.login-settings .custom-accordian .accordion-item {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.login-settings .custom-accordian .accordion-item .accordion-button {
+  border-radius: 10px;
+  background: #f0f5fe;
+}
+.login-settings
+  .custom-accordian
+  .accordion-item
+  .accordion-button
+  .accordian-title-form {
+  display: none;
+}
+.login-settings
+  .custom-accordian
+  .accordion-item
+  .accordion-button
+  .accordian-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--bs-black);
+}
+.login-settings
+  .custom-accordian
+  .accordion-item
+  .accordion-button.collapsed
+  .accordian-title {
+  display: none;
+}
+.login-settings
+  .custom-accordian
+  .accordion-item
+  .accordion-button.collapsed
+  .accordian-title-form {
+  display: flex;
+  align-items: center;
+}
+/* .login-settings .custom-accordian .accordion-item .accordion-button.collapsed .accordian-title-form .btn {
+    min-width: 200px;
+    border-radius: 30px;
+} */
+.login-settings .custom-accordian .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+.login-settings .custom-accordian .accordion-item .accordion-collapse {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.login-settings .custom-accordian .form-group {
+  border: 1px solid #cccbcb;
+  text-align: left;
+  padding: 6px 50px 6px 16px;
+  border-radius: 10px;
+  position: relative;
+  /* min-width: 350px; */
+  line-height: 16px;
+}
+.login-settings .custom-accordian .form-group .form-label {
+  margin-bottom: 0;
+}
+.login-settings .custom-accordian .form-group .form-control {
+  font-size: 16px;
+  margin-bottom: 0;
+  border: 0;
+  padding: 0;
+  color: #244440;
+  background: transparent;
+}
+.login-settings .custom-accordian .form-group .icon {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+.login-settings .custom-accordian .accordion-body .btn {
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.login-settings .form-group.disable {
+  pointer-events: none;
+  background-color: transparent;
+}
+.login-settings .form-group.custom {
+  border: 1px solid #cccbcb;
+  text-align: left;
+  padding: 6px 50px 6px 16px;
+  border-radius: 10px;
+  position: relative;
+  /* min-width: 350px; */
+  line-height: 16px;
+}
+.login-settings .form-group.custom .form-label {
+  margin-bottom: 0;
+}
+.login-settings .form-group.custom .form-control {
+  font-size: 16px;
+  margin-bottom: 0;
+  border: 0;
+  padding: 0;
+  color: #244440;
+  background: transparent;
+}
+.login-settings .form-group.custom .form-control:focus {
+  box-shadow: none;
+}
+.login-settings .form-group.custom .icon {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+.login-settings .otp-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.login-settings .otp-blocks .form-group {
+  width: 50px;
+  height: 50px;
+  min-width: auto;
+  padding: 0;
+}
+.login-settings .otp-blocks .form-group .form-control {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: transparent;
+}
+
+.login-settings .form-icon.success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-settings .form-group-box {
+  max-width: 320px;
+}
+
+.login-settings .react-tel-input .form-control {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .accordion-button {
+    padding: 8px !important;
+  }
+
+  .custom-accordian.accordion {
+    padding: 8px !important;
+  }
+
+  .login-settings .form-group-box .form-control {
+    font-size: 0.875rem;
+  }
+
+  .form-group-box {
+    padding: 8px !important;
+  }
+
+  .accordion-body {
+    padding: 0px !important;
+  }
+
+  .login-settings .custom-accordian .accordion-body .btn {
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 4px !important;
+    font-size: 0.875rem;
+  }
+
+  .login-settings .xs-center {
+    line-height: initial;
+  }
+
+  .otp-blocks {
+    min-width: unset !important;
+    width: 100%;
+  }
+
+  .otp-blocks .mx-1 {
+    margin: 2px !important;
+  }
+}

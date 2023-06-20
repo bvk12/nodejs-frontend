@@ -1,0 +1,482 @@
+body {
+  padding-top: 90px;
+}
+
+.user-account {
+  --background: #f0f5fe;
+}
+
+.admin-dashboard {
+  --background: #f0f5fe;
+}
+
+.menu-block .card {
+  background: var(--bs-white);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.04);
+  min-height: 150px;
+}
+.menu-block .image-content-block .background-profile-image {
+  background: var(--bs-primary);
+  border-radius: 0.375rem;
+  border-bottom-right-radius: 85%;
+  border-bottom-left-radius: 85%;
+  overflow: hidden;
+  height: 90px;
+  position: relative;
+}
+.menu-block .image-content-block .background-profile-image img {
+  opacity: 0.3;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: -105px;
+}
+.menu-block .image-content-block .profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+  position: relative;
+}
+.menu-block .nav-list a {
+  font-size: 15px;
+  font-weight: 500;
+  background: #fbfcff;
+  padding: 13px;
+  margin-bottom: 6px;
+  display: block;
+  text-decoration: none;
+  color: #202430;
+  display: flex;
+  align-items: center;
+}
+.menu-block .nav-list a img {
+  width: 25px;
+  margin-right: 0.8rem;
+}
+.menu-block .figure-caption {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+.menu-block .role-email {
+  font-size: 12px;
+  font-weight: 500;
+  color: #202430;
+  margin-bottom: 2rem;
+}
+.menu-block .role-email span {
+  font-weight: 400;
+  color: #8f8f8f;
+  display: block;
+}
+.content-block .card {
+  background: var(--bs-white);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.04);
+  min-height: 150px;
+}
+.content-block .card .card-body {
+  padding: 0;
+}
+.content-block .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  border-bottom: 1px solid #e9e9ea;
+}
+
+.form-label {
+  font-size: 13px !important;
+  color: #818181;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #ededed;
+}
+
+.error {
+  --padding-top: 5px;
+  font-size: 12px;
+  z-index: 1;
+  color: red;
+}
+
+.custom-input {
+  border: 1px solid #cacaca;
+  padding: 10px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .menu {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+}
+
+.h100vh {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-card {
+  margin: 1%;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  padding: 12px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.error {
+  --padding-top: 5px;
+  font-size: 12px;
+  z-index: 1;
+  color: red;
+}
+
+.custom-input {
+  border: 1px solid #cacaca;
+  padding: 10px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+body {
+  padding-top: 4.7rem;
+  font-size: 16px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* ul.navbar-nav li {
+border-left: 1px solid #f0efef;
+padding: 10px;
+}
+
+ul.navbar-nav li:last-child {
+border-right: 1px solid #f0efef;
+}
+
+.navbar-nav-right ul.navbar-nav li:last-child {
+border-right: 0 !important;
+} */
+
+.w-265 {
+  min-width: 265px;
+}
+
+/* .custom-navbar .btn {
+background: #f0f5fe;
+border: 0;
+color: #202430;
+padding: 8px 15px;
+transition: all 0.3s;
+} */
+
+/* .custom-navbar .nav-btn {
+color: #000;
+font-size: 16px;
+background: transparent;
+border: 0;
+padding: 8px 15px;
+transition: all 0.3s;
+}
+
+.custom-navbar .btn:hover {
+background: #2c79ff;
+color: #fff;
+} */
+
+/* .custom-navbar .btn.active {
+background: #2c79ff;
+color: #fff;
+} */
+
+.custom-navbar .btn:hover svg path {
+  stroke: #fff;
+}
+
+.custom-navbar .btn:hover svg path {
+  fill: #fff;
+}
+
+.border-right-1 {
+  border-right: 1px solid #f0efef;
+}
+
+/* .main-sigin-block > [class*="col"] {
+height: calc(100vh - 75px);
+} */
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a strong {
+  font-weight: 500;
+  color: #2c79ff;
+}
+
+.login-form {
+  /* width: 450px;
+margin: 0 auto; */
+  width: 100%;
+}
+
+/* .login-form .form-group {
+border: 1px solid #cccbcb;
+text-align: left;
+padding: 8px 50px 8px 16px;
+border-radius: 10px;
+position: relative;
+} */
+
+/* .login-form .btn {
+border-radius: 30px;
+padding: 10px 35px;
+} */
+
+/* .login-form .form-icon {
+position: absolute;
+right: 20px;
+top: 20px;
+} */
+
+.login-form .form-icon .fa {
+  font-size: 23px;
+}
+
+.login-form .disabled .fa {
+  font-size: 23px;
+  cursor: pointer;
+}
+.form-icon.success {
+  font-size: 16px;
+  cursor: pointer;
+  background: #4ea852;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.form-icon.success .fa {
+  font-size: 13px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.login-form .form-group label {
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+.login-form .mobile-number {
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.form-control::placeholder {
+  color: #bcbdc1;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  color: #bcbdc1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #bcbdc1;
+}
+
+.login-form .form-group .form-control {
+  font-size: 16px;
+  border: 0;
+  padding: 0;
+  color: #244440;
+}
+
+.login-form .form-group .form-control:focus {
+  box-shadow: none;
+}
+
+/* .btn-primary {
+background: #2c79ff;
+font-size: 17px;
+font-weight: 500;
+} */
+
+.main-title {
+  /* font-weight: 600;
+font-size: 30px;
+margin: 0 10px 50px 10px;
+text-align: center; */
+}
+
+.login-form .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.login-form .social-icons a {
+  border: 1px solid #cccbcb;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.login-form .social-icons a .fa {
+  font-size: 30px;
+}
+.login-form .social-icons a:first-child:hover {
+  background: black;
+  color: #fff;
+}
+
+.login-form .social-icons a:last-child:hover {
+  background: black;
+  color: #fff;
+}
+
+.or-block:after {
+  content: "";
+  background: #cccbcb;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 14px;
+  z-index: 1;
+}
+
+.or-block span {
+  background: #fff;
+  border: 1px solid #cccbcb;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  color: #dbdcde;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.disabled.form-group {
+  background: #fbfbfb;
+}
+
+.disabled.form-group input {
+  pointer-events: none;
+  background: #fbfbfb;
+}
+
+.otp-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otp-blocks .form-group {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.otp-blocks .form-group .form-control {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: transparent;
+}
+
+.two-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .xs-center {
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form {
+    width: 100%;
+  }
+
+  .login-form .btn {
+    width: 100%;
+  }
+
+  .xs-center {
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 60px;
+  }
+}
+
+.shadow1 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.shadow2 {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.shadow3 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.shadow4 {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,161 @@
+{
+    "status": "SUCCESS",
+    "name": "system_settings",
+    "title": "System Settings",
+    "data": {
+        "websiteTitle": "website title",
+        "systemName": "Visul path tech",
+        "slogan": "Better learning",
+        "metaKeyword": "test,review,lms",
+        "metaDescription": "evrything matters here sor the the search engine.",
+        "systemEmail": "venkat.r.parsi@gmail.com",
+        "address": "",
+        "phone": "+91 9490518647",
+        "timezone": "Asia/Kolkata",
+        "purchaseCode": "ferfrfwed-fweffs-3ede-0ewfec",
+        "footerText": "VisualPathTech",
+        "footerLink": "http://fullstack369.com/",
+        "emailVerification": "Active",
+        "youtubeApiKey": "dewfmewovnouvncewecnewoimewofievneon",
+        "vimeoApiKey": "ireorferoferofjfpfm43ognrwoiu",
+        "freeDays": 0
+    },
+    "metaData": {
+        "websiteTitle": {
+            "label": "Website title",
+            "type": "text",
+            "placeholder": "Enter Website title",
+            "rules": {
+                "required": true
+            }
+        },
+        "systemName": {
+            "label": "System Name",
+            "type": "text",
+            "placeholder": "Enter System Name",
+            "rules": {
+                "required": true
+            }
+        },
+        "slogan": {
+            "label": "Slogan",
+            "type": "text",
+            "placeholder": "Enter slogan",
+            "rules": {
+                "required": true
+            }
+        },
+        "metaKeyword": {
+            "label": "Meta keywords",
+            "type": "text",
+            "placeholder": "Enter meta data.",
+            "rules": {
+                "required": true
+            }
+        },
+        "metaDescription": {
+            "label": "Meta Description",
+            "type": "textarea",
+            "placeholder": "Enter Meta Description",
+            "rules": {
+                "required": true
+            }
+        },
+        "systemEmail": {
+            "label": "System Email",
+            "type": "email",
+            "placeholder": "Enter Meta Description",
+            "rules": {
+                "required": true
+            }
+        },
+        "address": {
+            "label": "Address",
+            "type": "textarea",
+            "placeholder": "Enter Address",
+            "rules": {
+                "required": true
+            }
+        },
+        "phone": {
+            "label": "Phone",
+            "type": "text",
+            "placeholder": "Enter Phone",
+            "rules": {
+                "required": true
+            }
+        },
+        "timezone": {
+            "label": "Timezone",
+            "type": "dropdown",
+            "placeholder": "Enter Timezone",
+            "options": [
+                "Asia/Kolkata"
+            ],
+            "rules": {
+                "required": true
+            }
+        },
+        "purchaseCode": {
+            "label": "Purchase Code",
+            "type": "text",
+            "placeholder": "Enter Purchase Code",
+            "rules": {
+                "required": true
+            }
+        },
+        "footerText": {
+            "label": "Footer Text",
+            "type": "text",
+            "placeholder": "Enter Footer Text",
+            "rules": {
+                "required": true
+            }
+        },
+        "footerLink": {
+            "label": "Footer Link",
+            "type": "text",
+            "placeholder": "Enter Footer Link",
+            "rules": {
+                "required": true
+            }
+        },
+        "emailVerification": {
+            "label": "Email  Verification",
+            "type": "dropdown",
+            "placeholder": "Enter Email verification",
+            "options": [
+                "Active",
+                "InActive"
+            ],
+            "rules": {
+                "required": true
+            }
+        },
+        "youtubeApiKey": {
+            "label": "Youtube API Key",
+            "type": "text",
+            "placeholder": "Enter Youtube API key",
+            "rules": {
+                "required": true
+            }
+        },
+        "vimeoApiKey": {
+            "label": "Vimeo API Key",
+            "type": "text",
+            "placeholder": "Enter Vimeo API key",
+            "rules": {
+                "required": true
+            }
+        },
+        "freeDays": {
+            "label": "Free Days",
+            "type": "number",
+            "placeholder": "Free Days",
+            "rules": {
+                "required": true
+            }
+        }
+    },
+    "submitText": "Save changes"
+}

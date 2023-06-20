@@ -1,0 +1,8 @@
+1) Contact Settings added in admin menu - where email , phone number , footerlogo - darkLogo , social media icos and urls are now 
+pulled from db.
+
+2) Delete program bug is fixed, you can delete the program ie making it inactive.
+
+3) Deactivate a user from Admin screens , he will not able to login to the system. eror message is displayed
+
+4) Favicon is updated for visualpath tech.

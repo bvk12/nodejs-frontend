@@ -1,0 +1,65 @@
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.course-bundle-details-header .title {
+  font-size: 45px;
+  padding: 0px;
+  margin:0px;
+}
+
+.w-100 {
+  width: 100%!important;
+}
+
+.program-header-area {
+  --background-color: #0a4a82;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.buybtn {
+  color: #fff;
+  background-color: #ec5252;
+  border-color: #ec5252;
+  padding: 11px 12px;
+  font-size: 15px;
+  border-radius: 2px;
+  line-height: 1.35135;
+  font-weight: 600;
+}
+
+.buybtn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.buybtn:hover, .buybtn:focus {
+  background-color: #992337;
+  border-color: #992337;
+  color: #fff;
+}
+
+.text-15 {
+  padding-top:10px;
+  font-size: 0.8em;
+  font-style: italic;
+}

@@ -1,0 +1,14 @@
+.header-buttons {
+  background-color: #00ff84;
+  color: black;
+}
+
+.cart-count-icon {
+  top: 12px !important;
+  left: -16px;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

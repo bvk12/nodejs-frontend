@@ -1,0 +1,44 @@
+.blue-block{
+    background: #2C79FF;
+    border-radius: 16px;
+    color:#fff;
+    padding:20px;
+}
+.blue-block h4{
+    font-size: 25px;
+    font-weight: 700;
+    color:#fff;
+    padding-top:6px;
+
+}
+.testimonials{
+    position: relative;
+    margin: 20px;
+}
+.testimonials .redelement{
+    position:absolute;
+    left:0;
+    bottom:-70px;
+    z-index:1;
+    width: 160px;
+}
+.testimonials .greenelement{
+    position:absolute;
+    right:0;
+    top:-150px;
+    z-index:1;
+    width: 160px;
+}
+@media screen and (max-width:767px){
+.right-block .mx-5{
+    margin:20px 0 0 0 !important;
+}
+}
+
+.slick-track .slick-active:nth-child(odd){
+    background: red;
+   }
+
+  .slick-track .slick-active:nth-child(even){
+     background: green;
+   }

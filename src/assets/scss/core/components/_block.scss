@@ -1,0 +1,37 @@
+$nk-block-gap: 2rem;
+
+.nk-block{
+    &-head{
+        margin-bottom: 1rem;
+        background-color: $white;
+        border-radius: $border-radius;
+        padding: 10px 15px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.02);
+        &-between{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-sm{
+            margin-bottom: 1rem;
+        }
+    }
+    &-title{
+        margin-bottom: 0.25rem;
+    }
+    + .nk-block{
+        margin-top: 3rem;
+    }
+}
+.nk-page{
+    &-head{
+        margin-bottom: 2.5rem;
+    }
+}
+.nk{
+    &-between{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

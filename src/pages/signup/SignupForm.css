@@ -1,0 +1,7 @@
+.react-tel-input .form-control {
+  padding-left: 48px !important;
+  height: 48px;
+}
+.react-tel-input .form-control:disabled {
+  background-color: transparent;
+}

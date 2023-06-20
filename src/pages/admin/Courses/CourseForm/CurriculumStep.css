@@ -1,0 +1,11 @@
+.chapter-actions, .section-actions {
+    display: none;
+}
+
+.chapter-card:hover .chapter-actions, .section-card:hover .section-actions {
+    display: inline-block;
+}
+
+.chapter-title {
+    height: 45px;
+}

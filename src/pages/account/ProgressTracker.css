@@ -1,0 +1,37 @@
+.progress-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .step-list li {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: calc(100% / 5);
+    color: #ccc;
+  }
+  
+  .step-list li.active {
+    color: #333;
+  }
+  
+  .progressBar {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .progressBar .progress-bar {
+    background-color: #007bff;
+  }
+  

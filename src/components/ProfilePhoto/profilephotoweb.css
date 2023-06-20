@@ -1,0 +1,12 @@
+.img-preview {
+    overflow: hidden;
+  }
+
+  
+  .profileInput{
+	display: none;
+}
+
+label{
+    cursor: pointer;
+}

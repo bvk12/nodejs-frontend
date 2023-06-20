@@ -1,0 +1,8 @@
+{
+  "name": "vpt-tab-react-poc1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "5f1b9005"
+}

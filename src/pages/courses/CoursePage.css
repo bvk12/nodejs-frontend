@@ -1,0 +1,105 @@
+.course-section-card {
+  cursor: pointer;
+}
+
+.react-player {
+  background-color: rgba(0, 0, 0, 0.01);
+  margin: 8px 0px 16px;
+}
+
+.sections-list {
+  padding: 0px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  gap: 1.2rem;
+  padding: 8px 16px;
+  color: #c9c9c9;
+}
+
+.section-container:hover {
+  border: 1px solid #394649;
+}
+
+.section-container.active {
+  color: white !important;
+  background-color: #394649 !important;
+}
+
+.section-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.section-checkbox .form-check-input {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+
+.section-duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 0.8rem;
+}
+
+.chapter-container {
+  /* border-bottom: 1px solid black; */
+  padding: 1.6rem 0;
+  /* background-color: #f7f9fa; */
+}
+
+.chapter-content-container {
+  height: 500px;
+  overflow: auto;
+}
+
+.chapter-content-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chapter-content-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+.chapter-content-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.chapter-content-container::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+}
+
+.sections-list {
+  list-style: none;
+  overflow: auto;
+}
+
+.course-container {
+  width: 100%;
+  background-color: #002333;
+}
+
+.course-details-tab {
+  padding: 24px;
+  list-style-type: disc;
+}
+
+@media (max-width: 576px) {
+  .video-player-container {
+    position: sticky;
+    top: 0px;
+  }
+
+  .react-player {
+    height: 250px !important;
+  }
+}

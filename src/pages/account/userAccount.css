@@ -1,0 +1,28 @@
+.profile-pic-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic-container:hover {
+  position: relative;
+  display: inline-block;
+  box-shadow: 1px 1px;
+  border-radius: 50%;
+}
+
+.profile-pic-container:hover .edit {
+  display: block;
+}
+
+.edit {
+  padding-top: 7px;
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.edit a {
+  color: #000;
+}

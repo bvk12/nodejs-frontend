@@ -1,0 +1,18 @@
+{
+	"appId": "com.visualpathtech.elearn",
+	"appName": "VisualpathTech",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+    "allowNavigation" : true,
+	"grantOfflineAccess": true,
+	"overrideUserAgent": "ionic://com.visualpathtech.elearn",
+	"plugins": {
+		"GoogleAuth": {
+		  "scopes": ["profile", "email"],
+		  "serverClientId": "637042349641-resl2k9ikgp2jkg1llqibltac1dtkg91.apps.googleusercontent.com",
+		  "forceCodeForRefreshToken": true,
+		  "grantOfflineAccess": true
+		}
+	  }
+
+}
